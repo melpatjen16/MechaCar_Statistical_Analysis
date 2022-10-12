@@ -16,5 +16,21 @@ The slope of the intercept is not considered equal to zero because it is statist
 
 The model accounted for 71% of the variance in dependent variable not attributable to chance. However, there is possibility that eliminating spoiler_angle may improve the model. 
 
-[insert Image here]
+Figure 1. 
+
+[insert Image1 here]
+
+
+## Summary Statistics on Suspension Coils
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+As shown in Figure 3, the variance for Lot 3 is 170.29 which is great than the maximum variance of the suspension coil for any lot. All other lots have a variance within the desired range. That stated, the current manufacturing data does not meet the design specification for all manufacturing lots individually, but does meet the specification in total 9see Figure 2). 
+
+Figure 2.
+[insert Image 2 here]
+
+Figure 3. 
+[insert Image 3 here]
+
 
