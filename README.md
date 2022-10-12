@@ -18,7 +18,7 @@ The model accounted for 71% of the variance in dependent variable not attributab
 
 Figure 1. 
 
-![Screenshot](screenshot1.png)
+![MR_image.png](images/MR.image.png)
 
 
 ## Summary Statistics on Suspension Coils
@@ -28,10 +28,11 @@ The design specifications for the MechaCar suspension coils dictate that the var
 As shown in Figure 3, the variance for Lot 3 is 170.29 which is great than the maximum variance of the suspension coil for any lot. All other lots have a variance within the desired range. That stated, the current manufacturing data does not meet the design specification for all manufacturing lots individually, but does meet the specification in total 9see Figure 2). 
 
 Figure 2.
-[insert Image 2 here]
+![TS_image.png](images/TS_image.png)
 
 Figure 3. 
-[insert Image 3 here]
+![LS_image.png](images/LS_image.png)
+
 
 
 ## T-tests on Suspension Coils
@@ -42,8 +43,8 @@ To determine if the PSI across all manufacturing lots is statistically different
 
 Overall, the one-sample t-test failed to reject the null hypothesis that the PSI for all manufacturing plants is statistically significant from the population mean (p=0.0603). With regard to the difference in means between the population and specific lots, we can reject the null hypothesis for Lot1 and Lot2 (p<0.05), but fail to reject the null for Lot3 (p=0.1589). 
 
-[Insert Image 4 here]
-[Insert Image 5 here]
+![T_Test_1.png](images/T_Test_1.png)
+![T_Test2.png](images/T_Test2.png)
 
 ## Study Design: MechaCar vs Competition
 
@@ -51,8 +52,8 @@ The client is encouraged to consider additional studies regarding their company 
 
 What metric or metrics are you going to test?
 
-Amount Paid for Car equal to or above cost. 
-
+Metric 1. Amount Paid for Car equal to or above cost. 
+Metric 2. Who will buy the car? 
 
 What is the null hypothesis or alternative hypothesis?
 
@@ -63,7 +64,9 @@ Ha: The slope of the linear model is not zero, m not equal 0
 
 What statistical test would you use to test the hypothesis? And why?
 
-Multiple Linear regression as there are more than 2 predictors and both the dependent and independent variables are continuous. The goal of the analysis would be to determine how much variance in the dependent variable is acounted for by the indicators in the model.
+Metric 1. Multiple Linear regression as there are more than 2 predictors and both the dependent and independent variables are continuous. The goal of the analysis would be to determine how much variance in the dependent variable (amount paid over price) is accounted for by the indicators in the model.
+
+Metric 2. Logistic regression - dichotomous dependent variable (M/F)
 
 What data is needed to run the statistical test?
 
