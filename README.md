@@ -44,9 +44,11 @@ To determine if the PSI across all manufacturing lots is statistically different
 Overall, the one-sample t-test failed to reject the null hypothesis that the PSI for all manufacturing plants is statistically significant from the population mean (p=0.0603). With regard to the difference in means between the population and specific lots, we can reject the null hypothesis for Lot1 and Lot2 (p<0.05), but fail to reject the null for Lot3 (p=0.1589). 
 
 Figure 4. 
+
 ![T_Test_1.png](images/T_Test_1.png)
 
 Figure 5. 
+
 ![T_Test2.png](images/T_Test2.png)
 
 ## Study Design: MechaCar vs Competition
