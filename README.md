@@ -18,7 +18,7 @@ The model accounted for 71% of the variance in dependent variable not attributab
 
 Figure 1. 
 
-![MR_image.png](images/MR.image.png)
+![MR_image.png](images/MR_image.png)
 
 
 ## Summary Statistics on Suspension Coils
@@ -43,36 +43,45 @@ To determine if the PSI across all manufacturing lots is statistically different
 
 Overall, the one-sample t-test failed to reject the null hypothesis that the PSI for all manufacturing plants is statistically significant from the population mean (p=0.0603). With regard to the difference in means between the population and specific lots, we can reject the null hypothesis for Lot1 and Lot2 (p<0.05), but fail to reject the null for Lot3 (p=0.1589). 
 
+Figure 4. 
 ![T_Test_1.png](images/T_Test_1.png)
+
+Figure 5. 
 ![T_Test2.png](images/T_Test2.png)
 
 ## Study Design: MechaCar vs Competition
 
-The client is encouraged to consider additional studies regarding their company (MechaCar) and the competition. Primarily, production is limited with workforce is down, demand is up, and parts are delayed. While this may be the world we live in, additional analysis could include the difference in updating the model to include only significant variables, consider the customer dependent variables such as number of children, avg maintenance frequency, and ultimate depreciation over time. Below is a description of a possible approach to the analysis. 
+The client is encouraged to consider additional studies regarding their company (MechaCar) and the competition. Primarily, the customer needs to come first and our client should put effort into determining our focus group. That said, additional analysis could include the difference in updating the model to include only significant variables, consider the customer dependent variables such as number of children, avg maintenance frequency, and ultimate depreciation over time. Below is a description of a possible approach to the analysis. 
 
-What metric or metrics are you going to test?
+### What metric or metrics are you going to test?
 
 Metric 1. Amount Paid for Car equal to or above cost. 
 Metric 2. Who will buy the car? 
 
-What is the null hypothesis or alternative hypothesis?
+### What is the null hypothesis or alternative hypothesis?
 
 There are many variables to consider, but using a multiple linear regression, using mpg as another independent variable the hypothesis is as follows: 
+
 H0: The slope of the linear model is zero, m=0
+
 Ha: The slope of the linear model is not zero, m not equal 0
 
-
-What statistical test would you use to test the hypothesis? And why?
+### What statistical test would you use to test the hypothesis? And why?
 
 Metric 1. Multiple Linear regression as there are more than 2 predictors and both the dependent and independent variables are continuous. The goal of the analysis would be to determine how much variance in the dependent variable (amount paid over price) is accounted for by the indicators in the model.
 
 Metric 2. Logistic regression - dichotomous dependent variable (M/F)
 
-What data is needed to run the statistical test?
+### What data is needed to run the statistical test?
 
 MPG
+
 Customer Demographics (gender, race/ethnicity, child under 15)
+
 Number of maintenance repairs on vehicle or avg for vehicle make/model
+
 Avg depreciation at location
+
 Number of seats in each vehicle
+
 Number of airbags in each vehicle
